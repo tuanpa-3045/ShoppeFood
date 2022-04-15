@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoppe Food</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/styles/reset.css" />
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="back-top" title="Back To Top">
+      <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <nav class="navbar">
+      <div class="navbar--container">
+        <div class="navbar--left">
+          <div class="navbar__logo" href="#">
+            <a href="index.html"><img src="./assets/images/shopeefoodvn.png" alt="logo" /></a>
+          </div>
+          <a class="navbar__location" href="#">
+            Địa điểm
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <ul class="navbar--categories">
+            <li class="nav--item">
+              <a class="nav--link active" href="index.html">Đồ ăn</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Thực Phẩm</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Bia</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Hoa</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Siêu Thị</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Thuốc</a>
+            </li>
+            <li class="nav--item">
+              <a class="nav--link" href="#">Thú cưng</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar--right">
+          <i class="fas fa-shopping-cart" style="cursor: pointer;"></i>
+          <div class="login">
+            <a href="#" class="login--btn">Đăng Nhập</a>
+          </div>
+          <div class="login">
+            <a href="#" class="login--btn">Đăng Ký</a>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <section class="main__banner">
+      <div class="main__banner--content">
+        <div class="main__banner--search">
+          <h1>Đặt Đồ ăn, giao hàng từ 20'...</h1>
+          <h3 class="my-20">Có 61973 Địa Điểm Ở TP. HCM Từ 00:00 - 23:59</h3>
+          <div class="main__banner--input">
+            <input type="text" placeholder="Tìm địa điểm, món ăn, địa chỉ..." />
+            <button class="btn-primary" type="button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="main__list--search">
+            <div class="main__list--item">
+              <h3>All</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Đồ ăn</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Đồ uống</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Đồ chay</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Bánh kem</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Tráng miệng</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Homemade</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Vỉa hè</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Pizza/Burger</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Món gà</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Món lẩu</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Sushi</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Mì phở</h3>
+            </div>
+            <div class="main__list--item">
+              <h3>Cơm hộp</h3>
+            </div>
+          </div>
+          <h3 class="my-20">
+            Sử dụng App ShopeeFood để có nhiều giảm giá và trải nghiệm tốt hơn
+          </h3>
+          <div class="main__banner--app">
+            <div>
+              <a href="#!"><img class="app" src="./assets/images/AppStore-vn.png" alt="appstore" /></a>
+            </div>
+            <div>
+              <a href="#!"><img class="app" src="./assets/images/PlayStore-vn.png" alt="playstore" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="main__banner--restaurant">
+          <div class="main__banner--endow">
+            <h5>Ưu đãi</h5>
+            <a href="#!"><i class="fas fa-th-large"></i>Xem Tất Cả</a>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__banner--item">
+            <i class="fas fa-circle stocking"></i>
+            <h3 class="favorite"><i class="fas fa-thumbs-up mx-1"></i>Yêu thích</h3>
+            <img src="./assets/images/items/bun-dau.jpg" alt="item" />
+            <div class="name-and-address">
+              <h5 title="Bún Đậu Nhà Cuội">Bún Đậu Nhà Cuội</h5>
+              <h4>
+                <span>30000₫</span>
+              </h4>
+            </div>
+            <div class="discount text-blue">
+              <div><i class="fas fa-tag icon-discount"></i>Giảm 10%</div>
+              <div>
+                <i class="fas fa-cart-plus mx-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="now__corporation">
+      <div class="now__corporation--preservation">
+        <h2>Đơn hàng của bạn sẽ được bảo quản như thế nào?</h2>
+        <p class="my-20">
+          ShopeeFood sẽ bảo quản đơn của bạn bằng túi & thùng để chống nắng
+          mưa, giữ nhiệt... trên đường đi một cách tốt nhất.
+        </p>
+        <div>
+          <img src="./assets/images/Box-food-preservation-footer.png" alt="img-preservation" />
+        </div>
+      </div>
+    </section>
+    <section class="now__corporation">
+      <div class="now__corporation--preservation merchant-app">
+        <h2>ShopeeFood Merchant App</h2>
+        <ul>
+          <li>
+            <h4 class="my-20">
+              - <strong>ShopeeFood Merchant</strong> là ứng dụng quản lý đơn
+              hàng cho các nhà hàng đối tác của dịch vụ đặt món tận nơi
+            </h4>
+          </li>
+          <li>
+            <h4>
+              - <strong>ShopeeFood.vn</strong> luôn sẵn sàng hợp tác với các
+              nhà hàng, quán ăn, cafe... để mở rộng kinh doanh cũng như gia
+              tăng khách hàng. Hãy kết nối vào hệ thống đặt và giao hàng để
+              giảm bớt chi phí quản lý, vận hành, marketing, công nghệ...
+            </h4>
+          </li>
+          <li>
+            <h4 class="my-20">
+              Đăng ký tham gia: <a href="#!">
+                <span class="text-lightblue">tại đây</span>
+              </a>
+            </h4>
+          </li>
+        </ul>
+      </div>
+      <div class="img-reg-merchant">
+        <img src="./assets/images/banner-phone-reg-merchant.png" alt="reg-merchant" />
+      </div>
+    </section>
+    <section class="now__corporation">
+      <div class="now__corporation--preservation merchant-app">
+        <h2 class="text-blue">
+          <a href="#!" class="text-orage">ShopeeFood.vn</a> Hợp tác nhân viên
+          giao nhận - ShopeeFood Driver
+        </h2>
+        <ul>
+          <li>
+            <h4 class="my-20">Giúp bạn tăng thu nhập trong thời gian rảnh rỗi</h4>
+          </li>
+          <li>
+            <h4>
+              <strong class="text-orage">ShopeeFood</strong> tìm kiếm hợp tác
+              với các cá nhân để thực hiện việc giao hàng, chúng tôi sẽ cung
+              cấp ứng dụng (app), 1 số dụng cụ cần thiết để bạn có thể tiếp
+              nhận & giao hàng, kiếm thêm thu nhập. Đăng ký tham gia
+              <a href="#!" class="fw-bold text-lightblue">tại đây</a> hoặc gửi
+              Email qua
+              <a href="mailto:tuyendung@gofast.vn" class="text-lightblue fw-bold">tuyendung@gofast.vn</a>
+              - hoặc gọi qua số điện thoại (028) 7109 9179.
+            </h4>
+          </li>
+        </ul>
+      </div>
+      <div class="img-deliverynow">
+        <img src="./assets/images/bg-deliverynow.png" alt="reg-merchant" />
+      </div>
+    </section>
+    <footer>
+      <div class="footer__container">
+        <div>
+          <h5>Công ty</h5>
+          <ul class="footer--introduce my-20">
+            <li><a href="#!">Giới thiệu</a></li>
+            <li><a href="#!">Trung tâm Trợ giúp</a></li>
+            <li><a href="#!">Quy chế</a></li>
+            <li><a href="#!">Điều khoản sử dụng</a></li>
+            <li><a href="#!">Bảo mật thông tin</a></li>
+            <li><a href="#!">Giải quyết khiếu nại</a></li>
+            <li><a href="#!">Liên hệ</a></li>
+            <li><a href="#!">Hợp tác nhân viên giao nhận</a></li>
+            <li><a href="#!">Đăng ký quán</a></li>
+            <li><a href="#!">ShopeeFood Uni</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Ứng dụng ShopeeFood</h5>
+          <div class="appstore my-20">
+            <a href="#!"><img src="./assets/images/AppStore-vn.png" alt="appstore" /></a>
+          </div>
+          <div class="googleplay my-20">
+            <a href="#!"><img src="./assets/images/PlayStore-vn.png" alt="playstore" /></a>
+          </div>
+          <div class="huawei my-20">
+            <a href="#!"><img src="./assets/images/Huawei-gallery-vn.png" alt="huawei" /></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__copyright">
+            <div class="footer__copyright--shoppe">
+              <img src="./assets/images/Logo-ShopeefoodVN.png" alt="logo" />
+            </div>
+            <p>&copy 2021 ShopeeFood</p>
+            <div class="footer__copyright--icon">
+              <span class="facebook">
+                <i class="icon fab fa-facebook-f"></i>
+              </span>
+              <span class="instagram">
+                <i class="icon fab fa-instagram"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <h5 class="my-20">Địa chỉ công ty</h5>
+          <p>Công Ty Cổ Phần Foody</p>
+          <p>Lầu G, Tòa nhà Jabes 1,</p>
+          <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TPHCM</p>
+          <p>Giấy CN ĐKDN số: 0311828036</p>
+          <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 11/6/2012,</p>
+          <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+          <p>Số điện thoại: 1900 2042</p>
+          <p>
+            Email <a href="mailto:info@shopeefood.vn">info@shopeefood.vn</a>
+          </p>
+          <div class="img-bocongthuong text-end">
+            <img src="./assets/images/gov_seals1.jpg" alt="bocongthuong" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
