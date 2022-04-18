@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="navbar--container">
+                <div class="navbar--left">
+                    <div class="navbar__logo" href="#">
+                        <a href="./index.html"><img src="./assets/images/shopeefoodvn.png" alt="logo" /></a>
+                    </div>
+                    <a class="navbar__location" href="#">
+                        Địa điểm
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="navbar--categories">
+                        <li class="nav--item">
+                            <a class="nav--link active" href="index.html">Đồ ăn</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Thực Phẩm</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Bia</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Hoa</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Siêu Thị</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Thuốc</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav--link" href="#">Thú cưng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar--right">
+                    <i class="fas fa-shopping-cart" style="cursor: pointer;"></i>
+                    <div class="login">
+                        <a href="./login.html" class="login--btn">Đăng Nhập</a>
+                    </div>
+                    <div class="login">
+                        <a href="./register.html" class="login--btn">Đăng Ký</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Form Login -->
+        <div class="formLogin__container">
+            <div class="loginShoppe text-center">
+                <h2 class="formLogin__title">Sign up</h2>
+                <div class="phoneNumber btnSignUp"><i class="fas fa-mobile-alt icon-contact"></i>SỐ ĐIỆN THOẠI</div>
+                <div class="loginFacebook btnSignUp"><i class="fab fa-facebook icon-contact"></i>FACEBOOK</div>
+                <div class="loginGoogle btnSignUp"><i class="fab fa-google-plus icon-contact"></i>GOOGLE</div>
+                <p>Hoặc đăng nhập bằng tài khoản của bạn</p>
+                <form action="#">
+                    <div class="userNamePassword">
+                        <i class="far fa-envelope formLogin--icon"></i>
+                        <input type="text" placeholder="Username or email" required>
+                        <i class="fas fa-lock formLogin--icon"></i>
+                        <input type="password" placeholder="Password" required>
+                        <i class="fas fa-lock formLogin--icon"></i>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="forgetPass">
+                        <div>
+                            <input type="checkbox" checked>
+                            <label for="agree">Lưu thông tin đăng nhập</label>
+                        </div>
+                        <div>
+                            <a href="#">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btnSubmit">Đăng
+                        Nhập</button>
+                </form>
+                <p class="rules">Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào. Bằng cách đăng nhập
+                    hoặc
+                    đăng ký, bạn đồng ý với <a href=""> Chính sách quy định của Foody</a></p>
+            </div>
+        </div>
+
+
+        <!-- Footer Shoppe -->
+        <footer>
+            <div class="footer__container">
+                <div>
+                    <h5>Công ty</h5>
+                    <ul class="footer--introduce my-20">
+                        <li><a href="#!">Giới thiệu</a></li>
+                        <li><a href="#!">Trung tâm Trợ giúp</a></li>
+                        <li><a href="#!">Quy chế</a></li>
+                        <li><a href="#!">Điều khoản sử dụng</a></li>
+                        <li><a href="#!">Bảo mật thông tin</a></li>
+                        <li><a href="#!">Giải quyết khiếu nại</a></li>
+                        <li><a href="#!">Liên hệ</a></li>
+                        <li><a href="#!">Hợp tác nhân viên giao nhận</a></li>
+                        <li><a href="#!">Đăng ký quán</a></li>
+                        <li><a href="#!">ShopeeFood Uni</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Ứng dụng ShopeeFood</h5>
+                    <div class="appstore my-20">
+                        <a href="#!"><img src="./assets/images/AppStore-vn.png" alt="appstore" /></a>
+                    </div>
+                    <div class="googleplay my-20">
+                        <a href="#!"><img src="./assets/images/PlayStore-vn.png" alt="playstore" /></a>
+                    </div>
+                    <div class="huawei my-20">
+                        <a href="#!"><img src="./assets/images/Huawei-gallery-vn.png" alt="huawei" /></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer__copyright">
+                        <div class="footer__copyright--shoppe">
+                            <img src="./assets/images/Logo-ShopeefoodVN.png" alt="logo" />
+                        </div>
+                        <p>&copy 2021 ShopeeFood</p>
+                        <div class="footer__copyright--icon">
+                            <span class="facebook">
+                                <i class="icon fab fa-facebook-f"></i>
+                            </span>
+                            <span class="instagram">
+                                <i class="icon fab fa-instagram"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <h5 style="margin-bottom: 20px;">Địa chỉ công ty</h5>
+                    <p>Công Ty Cổ Phần Foody</p>
+                    <p>Lầu G, Tòa nhà Jabes 1,</p>
+                    <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TPHCM</p>
+                    <p>Giấy CN ĐKDN số: 0311828036</p>
+                    <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 11/6/2012,</p>
+                    <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+                    <p>Số điện thoại: 1900 2042</p>
+                    <p>
+                        Email <a href="mailto:info@shopeefood.vn">info@shopeefood.vn</a>
+                    </p>
+                    <div class="img-bocongthuong text-end">
+                        <img src="./assets/images/gov_seals1.jpg" alt="bocongthuong" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
